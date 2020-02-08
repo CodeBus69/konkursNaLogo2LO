@@ -1,13 +1,15 @@
 * { 
-margin:0;
-padding:0; 
-box-sizing: border-box;
-font-family: 'Lato', sans-serif;}
+	margin:0;
+	padding:0; 
+	box-sizing: border-box;
+	font-family: 'Lato', sans-serif;}
+
+
 
 
 .container {
 	margin: 25px auto;
-	width: 75%;
+	width: 40%;
 	
 }
 
@@ -18,7 +20,7 @@ h1 {
 	text-align: center;
 	padding:25px;
 	font-size:3.5em;
-	margin-bottom: 15px;
+	margin-bottom: 50px;
   }
 
 h2 { 
@@ -36,12 +38,15 @@ ul li {
 	font-size: 1.5em;
 	transition: .5s;
 	transition: font-size .75s ;
+	
 }
 
 ul li:hover { 
 	color: black;
 	background-color: white; 
-	font-size: 2.5em;}
+	font-size: 2.5em;
+	border: solid 5px black;
+}
 a { 
 	text-decoration: none;
 	color:orange;
@@ -49,7 +54,9 @@ a {
 
 p { 
 	font-size: 1.5em; }
-i {color:#333;}
+i {
+	color:#333;}
+
 
 .case { 
 	border: solid 5px black;
